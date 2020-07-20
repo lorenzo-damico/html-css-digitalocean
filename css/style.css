@@ -106,6 +106,10 @@ p {
 
 /* Deploy */
 
-
+/* Designed */
+#designed img {
+  width: 40%;
+  vertical-align: middle;
+}
 
 /* /MAIN */

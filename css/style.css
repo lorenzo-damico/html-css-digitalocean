@@ -115,6 +115,22 @@ p {
 
 /* Service */
 #service {
-  background-image: linear-gradient(#0043C1, #00209B); 
+  background-image: linear-gradient(#0043C1, #00209B);
+}
+/* Development */
+#development .box_screen {
+  display: inline-block;
+  width: 90%;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+/* Get started */
+#get_started {
+  background-image: linear-gradient(#0043C1, #00209B);
 }
 /* /MAIN */
+
+/* FOOTER */
+
+/* /FOOTER */

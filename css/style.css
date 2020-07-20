@@ -111,5 +111,10 @@ p {
   width: 90%;
   vertical-align: middle;
 }
+/* Features */
 
+/* Service */
+#service {
+  background-image: linear-gradient(#0043C1, #00209B); 
+}
 /* /MAIN */

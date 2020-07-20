@@ -1,11 +1,9 @@
-* {
-  box-sizing: border-box;
+/* RESET */
+ul, h1, h2, h3, h4, h5, p {
   margin: 0;
-  padding: 0;
 }
-ul {
-  margin-bottom: 0;
-}
+/* /RESET */
+
 /* debug */
 .debug .row {
   background-color: pink;
@@ -30,11 +28,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
-  font-size: 50px;
+  font-size: 52px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 24px;
   font-weight: 700;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 /* /TYPO */
 
@@ -49,6 +55,9 @@ p {
 .bg_yellow {
   background-color: yellow;
 }
+.bg_grey {
+  background-color: #F3F5F9;
+}
 /* /COLOURS */
 
 /* MIX */
@@ -58,23 +67,45 @@ p {
 .p_bottom_40 {
   padding-bottom: 40px;
 }
+.h_200 {
+  height: 200px;
+}
 /* /MIX */
 
 /* HEADER */
 
 /* Header top */
- .header_top {
-   height: 60px;
-   line-height: 60px;
- }
+.header_top {
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 
- /* Jumbotron */
- .jumbotron_custom {
-   background-image: linear-gradient(#0043C1, #00209B);
-   height: 400px;
- }
- .box_white {
-   background-color: #fff;
-   border-radius: 5px;
- }
+/* Jumbotron */
+.jumbotron_custom {
+  margin-top: 60px;
+  background-image: linear-gradient(#0043C1, #00209B);
+}
+.box_white {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px 10px 20px;
+}
 /* /HEADER */
+
+/* MAIN */
+
+/* Logos */
+#logos {
+  padding: 30px 0 20px;
+}
+
+/* Deploy */
+
+
+
+/* /MAIN */

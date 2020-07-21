@@ -29,15 +29,15 @@ body {
 }
 h1 {
   font-size: 52px;
-  font-weight: 700;
+  font-weight: 500;
 }
 h2 {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 500;
 }
 h3 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
 }
 p {
   font-size: 18px;
@@ -62,11 +62,11 @@ p {
 /* /COLOURS */
 
 /* MIX */
-.p_top_40 {
-  padding-top: 40px;
+.p_top_60 {
+  padding-top: 60px;
 }
-.p_bottom_40 {
-  padding-bottom: 40px;
+.p_bottom_60 {
+  padding-bottom: 60px;
 }
 .h_200 {
   height: 200px;
@@ -91,7 +91,7 @@ p {
 }
 .header_top a {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   color: #031b4e;
   text-decoration: none;
 }
@@ -117,15 +117,90 @@ p {
   color: #006aff;
   vertical-align: middle;
 }
+
 /* Jumbotron */
 .jumbotron_custom {
   margin-top: 60px;
-  background-image: linear-gradient(#0043C1, #00209B);
+  background-image: url(../img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_title {
+  padding: 20px 15px 0;
+}
+.main_title h1 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.main_title p {
+  color: lightgrey;
+  margin-bottom: 10px;
 }
 .box_white {
   background-color: #fff;
   border-radius: 5px;
-  padding: 30px 10px 20px;
+  padding: 40px 20px 25px;
+}
+.box_white h3 {
+  color: #031b4e;
+  font-weight: 700;
+  font-size: 26px;
+}
+.box_white p:first-of-type {
+  color: #006aff;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 10px 0;
+}
+.box_white p:last-of-type {
+  color: #031b4e;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.box_white p:last-of-type a {
+  text-decoration: underline;
+  color: #006aff;
+}
+.box_white input {
+  border: 1px solid #e5e8ed;
+  border-radius: 5px;
+  padding: 8px 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 13px;
+}
+.btn_blue {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #fff;
+  padding: 3px 0;
+  width: 100%;
+  background-color: #006aff;
+  border: 1px solid #006aff;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.btn_google {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #626262;
+  padding: 3px 0;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-weight: 700;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1)
+}
+.box_white .btn_google img {
+  position: absolute;
+  height: 18px;
+  left: 1%;;
 }
 /* /HEADER */
 
@@ -177,6 +252,12 @@ footer {
 /* /FOOTER */
 
 /* RESPONSIVE */
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 42px;
+  }
+}
 
 @media screen and (max-width: 767px) {
   #logos li {

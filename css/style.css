@@ -60,7 +60,12 @@ h2 {
 .p_bottom_60 {
   padding-bottom: 60px;
 }
-
+.fa-greater-than {
+  font-weight: 700;
+  font-size: 10px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
 /* /MIX */
 
 /* HEADER */
@@ -192,7 +197,7 @@ h2 {
 .box_white .btn_google img {
   position: absolute;
   height: 18px;
-  left: 1%;;
+  left: 1%;
 }
 /* /HEADER */
 
@@ -223,12 +228,6 @@ h2 {
 }
 #logos > div > a:hover {
   color: #1633ff;
-}
-.fa-greater-than {
-  font-weight: 700;
-  font-size: 10px;
-  vertical-align: middle;
-  margin-left: 5px;
 }
 /* Deploy */
 #deploy h2 {
@@ -306,6 +305,35 @@ h2 {
   color: #006aff;
 }
 /* Features */
+#features h2 {
+  color: #031b4e;
+  margin-bottom: 30px;
+}
+#features img {
+  height: 32px;
+  margin-top: 20px;
+}
+#features h4 {
+  color: #031b4e;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+#features p {
+  color: #5C6A88;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px
+}
+#features a {
+  color: #006aff;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+#features a:hover {
+  color: #1633ff;
+}
 
 /* Service */
 #service {
@@ -341,6 +369,13 @@ footer {
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 42px;
+  }
+
+  #designed p:first-of-type {
+    margin-bottom: 100px;
+  }
+  #designed p:last-of-type {
+    margin-bottom: 100px;
   }
 }
 

@@ -42,6 +42,7 @@ h3 {
 p {
   font-size: 18px;
 }
+
 /* /TYPO */
 
 /* CONTAINER */
@@ -83,8 +84,39 @@ p {
   top: 0;
   left: 0;
   z-index: 1;
+  background-color: #fff;
 }
-
+.header_top img {
+  height: 25px;
+}
+.header_top a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #031b4e;
+  text-decoration: none;
+}
+.header_top a:hover {
+  color: #006aff;
+}
+.fa-angle-down {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.header_top .btn_sign {
+  padding: 5px 12px;
+  border: 1px solid #006aff;
+  color: #006aff;
+  border-radius: 5px;
+}
+.header_top .btn_sign:hover {
+  background-color: #006aff;
+  color: #fff;
+}
+.fa-bars {
+  font-size: 20px;
+  color: #006aff;
+  vertical-align: middle;
+}
 /* Jumbotron */
 .jumbotron_custom {
   margin-top: 60px;
@@ -101,9 +133,14 @@ p {
 
 /* Logos */
 #logos {
-  padding: 30px 0 20px;
+  padding: 30px 15px 20px;
 }
-
+#logos li {
+  width: calc(97% / 6);
+  padding: 0 5px;
+  background-color: pink;
+  vertical-align: middle;
+}
 /* Deploy */
 
 /* Designed */
@@ -138,3 +175,11 @@ footer {
   background-color: #031C4E;
 }
 /* /FOOTER */
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 767px) {
+  #logos li {
+    width: calc(98% / 2);
+  }
+}

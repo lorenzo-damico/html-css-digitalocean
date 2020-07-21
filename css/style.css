@@ -267,10 +267,43 @@ h2 {
 }
 
 /* Designed */
+#designed {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#designed h2 {
+  color: #031b4e;
+}
+#designed p:first-of-type {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0 50px;
+  color: #5C6A88;
+}
 #designed img {
   max-width: 500px;
-  width: 80%;
+  width: 70%;
   vertical-align: middle;
+  margin: 0 15px;
+}
+#designed .fa-angle-left {
+  font-size: 40px;
+  color: 	rgba(3, 27, 78, 0.5)
+}
+#designed .fa-angle-right {
+  font-size: 40px;
+  color: 	rgb(3, 27, 78);
+}
+#designed p:last-of-type {
+  color: #031b4e;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px
+}
+#designed .fa-circle {
+  margin-right: 4px;
+  font-size: 10px;
+  color: #006aff;
 }
 /* Features */
 

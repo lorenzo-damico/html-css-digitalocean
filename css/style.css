@@ -32,7 +32,7 @@ h1 {
   font-weight: 500;
 }
 h2 {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 700;
 }
 /* /TYPO */
@@ -60,12 +60,16 @@ h2 {
 .p_bottom_60 {
   padding-bottom: 60px;
 }
+.m_bottom_20 {
+  margin-bottom: 20px;
+}
 .fa-greater-than {
   font-weight: 700;
   font-size: 10px;
   vertical-align: middle;
   margin-left: 5px;
 }
+
 /* /MIX */
 
 /* HEADER */
@@ -338,6 +342,33 @@ h2 {
 /* Service */
 #service {
   background-image: linear-gradient(#0043C1, #00209B);
+}
+#service h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+#service li {
+  padding: 10px 15px;
+  font-size: 12px;
+}
+#service ul li:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+#service div:first-child > span {
+  color: #fff;
+}
+#service div:nth-child(2) > span {
+  color: lightgrey;
+}
+#service a {
+  color: #00d7d2;
+  text-decoration: none;
+}
+#service a:hover {
+  color: #1633ff;
+}
+#service .fa-greater-than {
+  font-size: 6px;
 }
 /* Development */
 #development .box_screen {

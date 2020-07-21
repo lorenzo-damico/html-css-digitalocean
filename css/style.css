@@ -69,7 +69,28 @@ h2 {
   vertical-align: middle;
   margin-left: 5px;
 }
+a.link_click {
+  color: #006aff;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+.link_click:hover {
+  color: #1633ff;
+}
 
+.fa-angle-left {
+  font-size: 40px;
+  color: 	rgba(3, 27, 78, 0.5)
+}
+.fa-angle-right {
+  font-size: 40px;
+  color: 	rgb(3, 27, 78);
+}
+.fa-circle {
+  font-size: 10px;
+  color: #006aff;
+}
 /* /MIX */
 
 /* HEADER */
@@ -224,15 +245,6 @@ h2 {
 #logos li img {
   width: 100%;
 }
-#logos > div > a {
-  color: #006aff;
-  font-weight: 500;
-  font-size: 16px;
-  text-decoration: none;
-}
-#logos > div > a:hover {
-  color: #1633ff;
-}
 /* Deploy */
 #deploy h2 {
   color: #031b4e;
@@ -289,25 +301,14 @@ h2 {
   vertical-align: middle;
   margin: 0 15px;
 }
-#designed .fa-angle-left {
-  font-size: 40px;
-  color: 	rgba(3, 27, 78, 0.5)
-}
-#designed .fa-angle-right {
-  font-size: 40px;
-  color: 	rgb(3, 27, 78);
-}
+
 #designed p:last-of-type {
   color: #031b4e;
   font-size: 14px;
   font-weight: 500;
   margin-top: 15px
 }
-#designed .fa-circle {
-  margin-right: 4px;
-  font-size: 10px;
-  color: #006aff;
-}
+
 /* Features */
 #features h2 {
   color: #031b4e;
@@ -328,15 +329,6 @@ h2 {
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 10px
-}
-#features a {
-  color: #006aff;
-  font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
-}
-#features a:hover {
-  color: #1633ff;
 }
 
 /* Service */
@@ -371,14 +363,43 @@ h2 {
   font-size: 6px;
 }
 /* Development */
+#development {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#development h2 {
+  color: #031b4e;
+  margin-bottom: 80px;
+}
 #development .box_screen {
   display: inline-block;
   max-width: 500px;
-  width: 80%;
+  width: 60%;
   vertical-align: middle;
   background-color: #fff;
+  margin: 20px 15px;
 }
-
+.box_screen img {
+  max-width: 100%;
+  max-height: 35px;
+}
+.box_screen p:first-of-type {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+  color: #5C6A88;
+}
+.box_screen h5 {
+  color: #031b4e;
+  font-size: 14px;
+  font-weight: 700;
+}
+.box_screen p:nth-of-type(2) {
+  color: #031b4e;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
 /* Get started */
 #get_started {
   background-image: linear-gradient(#0043C1, #00209B);

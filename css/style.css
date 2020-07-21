@@ -208,13 +208,35 @@ p {
 
 /* Logos */
 #logos {
-  padding: 30px 15px 20px;
+  padding: 50px 25px 30px;
+}
+#logos h5 {
+  color: #5b6987;
+  font-size: 16px;
+  margin-bottom: 30px;
 }
 #logos li {
   width: calc(97% / 6);
   padding: 0 5px;
-  background-color: pink;
   vertical-align: middle;
+}
+#logos li img {
+  width: 100%;
+}
+#logos > div > a {
+  color: #006aff;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+#logos > div > a:hover {
+  color: #1633ff;
+}
+.fa-greater-than {
+  font-weight: 700;
+  font-size: 10px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 /* Deploy */
 

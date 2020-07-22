@@ -36,6 +36,7 @@ h2 {
   font-weight: 700;
 }
 /* /TYPO */
+
 /* BUTTON */
 .header_top a.btn_sign {
   padding: 5px 12px;
@@ -96,6 +97,7 @@ a.btn_white:hover {
   opacity: 0.8;
 }
 /* /BUTTON */
+
 /* CONTAINER */
 .container_1024 {
   max-width: 1024px;
@@ -428,12 +430,45 @@ a.link_click {
   color: #fff;
   margin-bottom: 20px;
 }
-.btn_
 /* /MAIN */
 
 /* FOOTER */
 footer {
   background-color: #031C4E;
+}
+footer .logo_footer {
+  height: 40px;
+}
+footer p:first-of-type {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+  font-size: 13px;
+}
+footer p:last-of-type {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+footer h4 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+footer .social_list a {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .menu_footer li {
+  margin-bottom: 5px;
+}
+footer .menu_footer a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+footer a:hover  {
+  color: rgba(255, 255, 255, 1);
 }
 /* /FOOTER */
 

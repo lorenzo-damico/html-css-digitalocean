@@ -435,6 +435,7 @@ a.link_click {
 /* FOOTER */
 footer {
   background-color: #031C4E;
+  padding: 50px 0;
 }
 footer .logo_footer {
   height: 40px;
@@ -453,7 +454,7 @@ footer h4 {
   color: #fff;
   font-weight: 500;
   font-size: 15px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 footer .social_list a {
   font-size: 20px;
@@ -469,6 +470,70 @@ footer .menu_footer a {
 }
 footer a:hover  {
   color: rgba(255, 255, 255, 1);
+}
+
+/* Shark */
+.chat_bot {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0 30px 30px;
+}
+.chat_bot::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.chat_bot .wrap_shark {
+  float: right;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 10px;
+  position: relative;
+}
+.chat_bot .wrap_shark img {
+  height: 50px;
+  border-radius: 5px;
+}
+.chat_bot .wrap_shark::before {
+  content: "2";
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  background-color: red;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  display: block;
+  line-height: 18px;
+  text-align: center;
+  font-size: 11px;
+  position: absolute;
+  top: -12%;
+  right: -12%;
+}
+.chat_bubble {
+  width: 320px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  color: #031b4e;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  float: right;
+}
+.chat_bubble::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  right: -4px;
+  bottom: 10px;
+  transform: rotate(45deg);
 }
 /* /FOOTER */
 
@@ -488,6 +553,19 @@ footer a:hover  {
   }
   #designed p:last-of-type {
     margin-bottom: 100px;
+  }
+
+  .chat_bot {
+    max-width: 380px;
+  }
+  .chat_bot .wrap_shark {
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  .chat_bubble {
+    float: left;
+    width: 100%;
   }
 }
 
